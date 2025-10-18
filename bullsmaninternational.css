@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 90px;
+    padding-top: 40px;
+
+}  
+
+.container img{
+    height: 100px;
+   padding-inline: 10px;
+}
+.info{
+    border-right:2px solid #23282D  ;
+    padding-right: 10px;
+}
+.info a{
+    text-decoration: none;
+    color: #23282D;
+    font-weight: bold;
+    font-family:"Open Sans", serif;
+    text-align: left;
+}
+.info p{
+    color:#454F5E;
+    font-family:"Open Sans", serif;
+}
+.button{
+    border: 2px solid #FF2C19;
+    background-color: #FF2C19;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-inline: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-inline: 10px;
+    margin-block: 30px;
+    font-size: 14px;
+    width: 20px;
+}
+.navbar2{
+    display: flex;
+    gap:30px;
+    padding-left: 50px;
+    margin-top: 50px;
+    background-color: #23282D;
+   height: 70px;
+
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.navbar2 .link{
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.products{
+    background-image: url(hola.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+}
+.products h3{
+    font-size: 25px;
+}
+.products h1{
+    font-size: 60px;
+}
+.products button{
+    background-color: #FF2C19;
+    border: 2px solid  #FF2C19 ;
+    color: beige;
+    width: 240px;
+    height: 57px;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 25px;
+}
+ .overlap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+.orange{
+    border: 2px solid #FF2C19;
+    background-color: #FF2C19;
+    width: 600px;
+    height: 400px;
+    margin-inline: 150px;
+ }
+ .orange h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-family:"Open Sans", serif; 
+ }
+ .orange h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-family:"Open Sans", serif; 
+   
+ }
+ .orange p{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:"Open Sans", serif; 
+ }
+ .orange button{
+    text-align: center;
+    width: 190px;
+    height: 50px;
+    margin-inline: 110px;
+    margin-top: 50px;
+    font-family:"Open Sans", serif; 
+ }
+ .cards
+ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ .card{
+    border: 2px black solid;
+    height: 300px;
+    width: 250px;
+ }
+ .ourproducts{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+  margin-inline: 100px;
+  gap:20px;
+    
+ }
+ .ourproducts img{
+    border: 2px solid #FF2C19;
+    margin-top: 30px;
+    width: 270px;
+ }
+ 
+ .ourproductsheading{
+    color: #0F172A;
+    font-family:"Open Sans", serif; 
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-inline: 60px;
+    
+ }
+ .ourproducts p{
+    color: #0F172A;
+    font-family:"Open Sans", serif; 
+
+ }
+ .contain{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 60px;
+
+ }
+ .contain1{
+    background-image: url(hola.jpg);
+    background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+ }
+ .contain2{
+   text-align: start;
+   padding-left: 30px;
+    background-image: url("workmen.jpg");
+    background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+ }
+ .contain1 h3{
+    color: #FF2C19;
+    font-size: 37px;
+ }
+ .contain1 h1{
+    color: antiquewhite;
+    font-size: 40px;
+   line-height: 4rem;
+ 
+ }
+ .contain1 p{
+    color: bisque;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+ }
+ .contain2 h3{
+    color: #FF2C19;
+    font-size: 37px;
+    line-height: 4rem;
+ 
+ }
+ .contain2 h1{
+    color: antiquewhite;
+    font-size: 40px;
+   line-height: 4rem;
+ 
+ }
+ .contain2 p{
+    color: bisque;
+    font-size: 20px;
+    margin-top: 40px;
+ }
+ .contain button{
+   background-color: #FF2C19;
+   color: white;
+   border: 2px solid #FF2C19;
+   width: 200px;
+   height: 50px;
+   font-size: 20px;
+  margin-top: 90px;
+ }
+ /* .qualityservices
+ {
+   color:#0F172A ;
+   text-align: center;
+   font-size: 38px;
+   margin-top: 80px;
+ }
+ .services{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-inline: 100px; */
+ /* } */
+/* .servicea h2,p{
+   color: #0F172A;
+}
+.servicea .icon{
+   width: 30px;
+   height: 30px;
+ }
+ .servicec .icon{
+   width: 30px;
+   height: 30px;
+ }
+.servic2 h2,p{
+   color: #0F172A;
+}
+.service3 h2,p{
+   color: 0F172A;
+}
+.service1  h2{
+   margin-top: 40px;
+}
+.service2 h2{
+   margin-top: 40px;
+}
+.services img{
+   height: 600px;
+   width: 500px;
+} */
+ 
+/* .services{
+   height: 400px;
+   display: flex;
+}
+.icon-heading{
+   display: flex;
+   flex-direction: row;
+   gap:10px;
+}
+.service_a p{
+   padding-left: 40px;
+}
+.service_row{
+  
+   display: flex;
+   flex-direction: column;
+   gap:50px;
+}
+.service2 img{
+   height: 400px;
+   width: 500px;
+   background-size: cover;
+
+}
+.icon{
+   width: 30px; */
+ /* } */
+ .qualityservices{
+   font-size: 25px;
+   font-family: sans-serif;
+   color: #0F172A;
+   text-align: center !important;
+   margin-block: 20px;
+ }
+ .service{
+   display: flex;
+   flex-direction: row;
+}
+ .iconhead img{
+   width: 30px;
+ }
+ .iconhead{
+   display: flex;
+   flex-direction: row;
+ }
+.servicerow{
+   display: flex;
+   flex-direction:column;
+   gap: 50px;
+}
+
+.workmen img{
+   height: 400px;
+   width: 500px;
+   background-size: cover;
+
+}
+
+.contact h1{
+   font-size: 40px;
+text-align: center;
+
+}
+.contact button{
+   color: antiquewhite;
+   background-color: #FF2C19;
+   width: 150px;
+   height: 50px;
+   border: 2px solid #FF2C19 ;
+   font-size: 16px;
+}
+.contact{
+   background-color: #0F172A;
+   color: beige;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 120px;
+}
+.backgroundimage{
+   background-image: url(engineer.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 400px;
+}
+.footer{
+   display: flex;
+   flex-direction: row;
+   text-align: start;
+   background-color: #0F172A;
+   color: white;
+  padding-inline: 80px;
+  gap: 20px;
+}
+.footer ol{
+   width: 380px;
+
+}
+.footer a{
+   color: white;
+   width: 380px;
+}
+.footer p{
+   color: white;
+   width: 380px;
+}
+
+.aboutus h1, .quickcontacts h1, .product h1{
+   border-left: #FF2C19 2px solid;
+   padding-bottom: 10px;
+   margin: 40px;
+   padding-left: 10px;
+}
+.aboutus p, .quickcontacts p, .product p
+{
+   font-size: 20px;
+   padding-top: 40px;
+   line-height: 30px;
+
+}
+.lastfooter{
+   background-color: #FF2C19;
+   height: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-between;
+   align-items: center;
+}
+.lastfooter p,a{
+   color: aliceblue;
+   font-size: 20px;
+   text-decoration: none;
+   padding-inline: 28px;
+}
+.footer_link a{
+   margin-inline: 40px;
+   text-decoration: none;
+   padding-inline:5px ;
+   font-size: 20px;
+}
+.list{
+   text-decoration: none;
+}
+ul li{
+   text-decoration: none;
+   list-style: none;
+   font-size: 15px;
+}
+.listicon{
+   display: flex;
+   gap: 10px;
+   margin-block: 10px;
+}
+.listicon img{
+   width: 30px;
+}
+.product li{
+text-decoration:none;
+line-height: 30px;
+font-size: 12px;
+}
+.build{
+   display: flex;
+   flex-direction: row;
+   width: 1000px;
+   margin: auto;
+   margin-top: -150px;
+}
+.dream{
+   background-color: #FF2C19;
+   height: 450px;
+   width: 500px;
+   padding-inline: 30px;
+}
+.dreamh1{
+   color: aliceblue;
+   text-align: start;
+   line-height: 45px;
+}
+.dreamh2{
+   color: aliceblue;
+   text-align: start;
+   line-height: 70px;
+   padding-top: 30px;
+}
+.dreamp{
+   color: antiquewhite;
+   text-align: start;
+   line-height: 30px;
+}
+.dream button{
+   width: 200px;
+   height: 50px;
+   margin-block: 40px;
+   border: none;
+}
+.dream button:hover{
+   background-color: black;
+   color: white;
+}
+.experience{
+   width: 485px;
+   display: flex;
+   flex-wrap: wrap;
+  background-color: white;
+}
+
+.ex{
+   width: 190px;
+   border-right: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+}
